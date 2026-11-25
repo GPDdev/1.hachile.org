@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f8f8f4">
+<title>Gunpowder Lab | 个人实验室</title>
+<meta name="description" content="Gunpowder 的个人实验室。从同济的机器人研究、开发项目，到写作、图像与社群。">
+<link rel="canonical" href="https://1.hachile.org/"><link rel="icon" href="./assets/icon.png">
+<meta property="og:title" content="Gunpowder Lab | 个人实验室"><meta property="og:type" content="website"><meta property="og:url" content="https://1.hachile.org/">
+<link rel="stylesheet" href="./assets/lab.css"><script defer src="./assets/sculpture.js"></script><script defer src="./assets/lab.js"></script>
+</head><body id="top">
+<a class="skip" href="#main">跳到正文</a>
+<header class="topbar"><div class="wrap bar-inner"><a class="brand" href="#top"><span class="mark" aria-hidden="true">1</span><span>Gunpowder Lab</span></a>
+<nav aria-label="主导航"><a href="#work">作品</a><a href="#writing">手记</a><a href="#network">站点</a><a href="#about">关于</a></nav>
+<a class="github" href="https://github.com/GPDdev">GitHub <span class="arrow" aria-hidden="true">↗</span></a></div></header>
+<main id="main">
+<section class="hero wrap" aria-labelledby="hero-title"><div class="intro">
+<div class="eyebrow"><i class="status-dot"></i>PERSONAL LAB <span>/</span> 上海</div>
+<h1 id="hero-title"><span>Gunpowder</span><em lang="en">Lab.</em></h1>
+<p>我是 Gunpowder，同济大学机器人专业本科生。<br class="wide-only">这里收藏我的研究、代码，以及屏幕之外的创作。</p>
+<div class="actions"><a class="button" href="#work">探索作品 <span aria-hidden="true">↓</span></a><a class="secondary" href="#about">认识我</a></div>
+</div>
+<figure class="instrument"><div class="instrument-info"><span class="mono">FIG. 01</span><span class="model-label">三维模型</span></div>
+<div class="stage"><img class="fallback" src="./assets/trefoil.webp" alt="" width="800" height="480"><canvas id="specimen" tabindex="0" aria-label="三叶结模型，拖动或使用方向键旋转"></canvas></div>
+<figcaption><div><span class="target" aria-hidden="true">⊙</span> <strong>三叶结</strong> <i lang="en">Trefoil knot</i></div>
+<button type="button" id="motion-toggle" aria-pressed="false" hidden>暂停旋转</button></figcaption></figure>
+</section>
+
+<section class="wrap chapter work" id="work" aria-labelledby="work-title">
+<div class="section-head"><div><div class="eyebrow">SELECTED WORK</div><h2 id="work-title">精选作品<span class="period">.</span></h2></div>
+<div class="filters" aria-label="筛选作品" role="group" hidden><button type="button" aria-pressed="true" data-filter="全部">全部</button><button type="button" aria-pressed="false" data-filter="研究">研究</button><button type="button" aria-pressed="false" data-filter="开发">开发</button></div></div>
+<div class="work-grid"><article class="work-card" data-category="开发">
+  <a href="https://github.com/GPDdev/Shanghai-Metro-Planner"><div class="cover"><img src="./assets/metro.webp" width="840" height="400" loading="lazy" alt=""></div>
+  <div class="work-meta"><span>开发</span><span lang="en">Transit planning</span></div>
+  <h3>上海地铁换乘指南 <span class="arrow" aria-hidden="true">↗</span></h3><p>先少换乘，再少坐几站。用 C++ 和 Qt 把路线规划做成可编辑的地铁图。</p></a></article>
+<article class="work-card" data-category="研究">
+  <a href="https://research.hachile.org/#lithium-dendrite"><div class="cover"><img src="./assets/dendrite.webp" width="840" height="400" loading="lazy" alt=""></div>
+  <div class="work-meta"><span>研究</span><span lang="en">Image analysis</span></div>
+  <h3>锂枝晶生长分析与预测 <span class="arrow" aria-hidden="true">↗</span></h3><p>把锂沉积的形貌图像与充放电曲线放在一起，研究枝晶如何生长。论文已投至 AI and Energy。</p></a></article>
+<article class="work-card" data-category="研究">
+  <a href="https://research.hachile.org/#qdepth-vla"><div class="cover"><img src="./assets/robot.webp" width="840" height="400" loading="lazy" alt=""></div>
+  <div class="work-meta"><span>研究</span><span lang="en">Embodied AI</span></div>
+  <h3>QDepth-VLA 果园采摘 <span class="arrow" aria-hidden="true">↗</span></h3><p>作为开发小组成员，参与用普通 RGB 摄像头引导机械臂识别、定位和采摘果实的原型项目。</p></a></article>
+<article class="work-card" data-category="开发">
+  <a href="https://github.com/GPDdev/jinke"><div class="cover"><img src="./assets/journal.webp" width="840" height="400" loading="lazy" alt=""></div>
+  <div class="work-meta"><span>开发</span><span lang="en">Android</span></div>
+  <h3>今刻 <span class="arrow" aria-hidden="true">↗</span></h3><p>给 Android 写的心情记录本。打开就能记一笔，草稿保存在本机，也可以导出为 Markdown。</p></a></article></div></section>
+
+<section class="wrap chapter" id="writing" aria-labelledby="writing-title">
+<div class="section-head"><div><div class="eyebrow">FIELD NOTES</div><h2 id="writing-title">文章与手记<span class="period">.</span></h2></div><a class="text-link" href="https://blog.hachile.org/">全部文章 <span class="arrow" aria-hidden="true">↗</span></a></div>
+<div class="entries"><a class="entry" href="https://blog.hachile.org/posts/oxford-lawns-and-rainbows/">
+  <time datetime="2026-10-25">2026.10.25</time>
+  <h3>草坪、彩虹，和一座没有围墙的大学</h3><span class="entry-topic">旅行随笔</span><span class="arrow" aria-hidden="true">↗</span></a>
+<a class="entry" href="https://blog.hachile.org/posts/backpropagation-and-transformer-notes/">
+  <time datetime="2026-10-18">2026.10.18</time>
+  <h3>反向传播与 Transformer 学习笔记</h3><span class="entry-topic">学习笔记</span><span class="arrow" aria-hidden="true">↗</span></a>
+<a class="entry" href="https://blog.hachile.org/posts/plato-reason-order-and-freedom/">
+  <time datetime="2026-06-16">2026.06.16</time>
+  <h3>理性秩序与自由的张力：柏拉图《理想国》的政治理性及其限度</h3><span class="entry-topic">哲学</span><span class="arrow" aria-hidden="true">↗</span></a>
+<a class="entry" href="https://blog.hachile.org/posts/magnetic-newtons-cradle/">
+  <time datetime="2025-11-24">2025.11.24</time>
+  <h3>磁力牛顿摆实验研究报告</h3><span class="entry-topic">物理实验</span><span class="arrow" aria-hidden="true">↗</span></a></div></section>
+
+<section class="wrap chapter" id="gallery" aria-labelledby="gallery-title"><div class="section-head"><div>
+<div class="eyebrow">VISUAL ARCHIVE</div><h2 id="gallery-title">视觉手稿<span class="period">.</span></h2></div><a class="text-link" href="https://gallery.hachile.org/">进入画廊 <span class="arrow" aria-hidden="true">↗</span></a></div>
+<div class="gallery-grid"><figure><a href="https://gallery.hachile.org/assets/images/gallery-06.jpg"><div class="photo"><img src="https://gallery.hachile.org/assets/images/gallery-06.jpg" loading="lazy" decoding="async" alt="国豪书院院徽设计稿"></div>
+  <figcaption>国豪书院院徽设计稿 <span class="arrow" aria-hidden="true">↗</span></figcaption></a></figure>
+<figure><a href="https://gallery.hachile.org/assets/images/gallery-04.jpg"><div class="photo"><img src="https://gallery.hachile.org/assets/images/gallery-04.jpg" loading="lazy" decoding="async" alt="GPDdev 开发号图标"></div>
+  <figcaption>GPDdev 开发号图标 <span class="arrow" aria-hidden="true">↗</span></figcaption></a></figure>
+<figure><a href="https://gallery.hachile.org/assets/images/gallery-05.jpg"><div class="photo"><img src="https://gallery.hachile.org/assets/images/gallery-05.jpg" loading="lazy" decoding="async" alt="「同济大学未来技术班」公众号图标"></div>
+  <figcaption>「同济大学未来技术班」公众号图标 <span class="arrow" aria-hidden="true">↗</span></figcaption></a></figure></div></section>
+
+<section class="network" id="network" aria-labelledby="network-title"><div class="wrap chapter"><div class="section-head">
+<div><div class="eyebrow">HACHILE NETWORK</div><h2 id="network-title">个人站点<span class="period">.</span></h2></div><a class="text-link" href="https://site.hachile.org/">完整站点目录 <span class="arrow" aria-hidden="true">↗</span></a></div>
+<div class="directory"><section class="site-group"><h3>认识我</h3><ul><li>
+  <a href="https://home.hachile.org/"><strong>Gunpowder Central</strong><span class="arrow" aria-hidden="true">↗</span><small>我的个人主页、来信方式与留言区</small></a></li><li>
+  <a href="https://cv.hachile.org/"><strong>CV</strong><span class="arrow" aria-hidden="true">↗</span><small>学历、竞赛经历与所获荣誉</small></a></li><li>
+  <a href="https://hachile.org/"><strong>Hachile Portal</strong><span class="arrow" aria-hidden="true">↗</span><small>从不同身份进入我的个人网站</small></a></li><li>
+  <a href="https://terminal.hachile.org/"><strong>Hachile Terminal</strong><span class="arrow" aria-hidden="true">↗</span><small>用命令行翻阅我的项目与文章</small></a></li></ul></section>
+<section class="site-group"><h3>研究与开发</h3><ul><li>
+  <a href="https://research.hachile.org/"><strong>Research</strong><span class="arrow" aria-hidden="true">↗</span><small>研究项目、团队分工与成果</small></a></li><li>
+  <a href="https://dev.hachile.org/"><strong>Dev</strong><span class="arrow" aria-hidden="true">↗</span><small>我做过的软件、模拟器与地图工具</small></a></li><li>
+  <a href="https://tap.hachile.org/"><strong>循济 TongjiTap</strong><span class="arrow" aria-hidden="true">↗</span><small>为 Android 编排点击步骤的离线工具</small></a></li><li>
+  <a href="https://github.com/GPDdev"><strong>GPDdev</strong><span class="arrow" aria-hidden="true">↗</span><small>GitHub 上的项目源码</small></a></li></ul></section>
+<section class="site-group"><h3>文字与图像</h3><ul><li>
+  <a href="https://blog.hachile.org/"><strong>Blog</strong><span class="arrow" aria-hidden="true">↗</span><small>研究笔记、课程论文和旅行随笔</small></a></li><li>
+  <a href="https://gallery.hachile.org/"><strong>Gallery</strong><span class="arrow" aria-hidden="true">↗</span><small>画稿、图标与收藏的影像</small></a></li><li>
+  <a href="https://ghc.hachile.org/"><strong>国豪野史</strong><span class="arrow" aria-hidden="true">↗</span><small>关于同济大学国豪书院的校园故事</small></a></li><li>
+  <a href="https://tjwild.hachile.org/"><strong>同济野史</strong><span class="arrow" aria-hidden="true">↗</span><small>从校友回忆和档案里追寻校园往事</small></a></li></ul></section>
+<section class="site-group"><h3>社群与身份</h3><ul><li>
+  <a href="https://groups.hachile.org/"><strong>Groups</strong><span class="arrow" aria-hidden="true">↗</span><small>我建立和运营的校园与兴趣社群</small></a></li><li>
+  <a href="https://bot.hachile.org/"><strong>Bot Lab</strong><span class="arrow" aria-hidden="true">↗</span><small>小五、Ponylonia 与 Hachile 三个 QQ 机器人</small></a></li><li>
+  <a href="https://sky.hachile.org/"><strong>Sky</strong><span class="arrow" aria-hidden="true">↗</span><small>从一张地图认识我的 Brony 身份 Pegasus Bluie</small></a></li><li>
+  <a href="https://pony.hachile.org/"><strong>天蓝晨风</strong><span class="arrow" aria-hidden="true">↗</span><small>我的画作与喜欢的小马音乐</small></a></li></ul></section></div></div></section>
+</main>
+<footer id="about"><div class="wrap"><div class="about-grid"><div><div class="eyebrow">ABOUT ME</div><h2>你好，我是<br><em>Gunpowder.</em></h2></div>
+<div class="about-copy"><p>我在同济大学国豪书院未来技术班学习机器人，关注具身智能和世界模型。从 OI 到机器人，我一直喜欢把想法做成可以运行的东西。</p>
+<p>Gunpowder 这个网名从 2020 年用到现在。除了写代码，我也画画、写文章，运营着 100 多个网络社群。</p>
+<div class="about-links"><a class="text-link" href="https://home.hachile.org/#contact">联系我 <span class="arrow" aria-hidden="true">↗</span></a><a class="text-link" href="https://terminal.hachile.org/">Terminal Me <span class="arrow" aria-hidden="true">↗</span></a></div></div></div>
+<div class="footer-line"><div class="brand"><span class="mark" aria-hidden="true">1</span><span>Gunpowder Lab</span></div><span>© 2026 GPDdev</span><a href="#top">回到顶部 ↑</a></div></div></footer>
+</body></html>
